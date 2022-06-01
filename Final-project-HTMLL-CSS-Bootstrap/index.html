@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Flowers for All</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Gallery</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/first.jpeg" class="d-block w-100" alt="flower1" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/second.jpg" class="d-block w-100" alt="flower2" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/third.webp" class="d-block w-100" alt="flower3" />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+<div class="services-first">
+    <img src="./assets/Capture1.JPG" class="d-block w-100" alt="services">
+</div>
+
+
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./assets/bouquet.jpg" class="card-img-top" alt="bouquet">
+        <div class="card-body">
+          <h5 class="card-title">Wedding Bouquet Vintage</h5>
+          <p class="card-text">This is the best way to express your unique view of your wedding</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">300 LEI</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./assets/bouquet4.jpg" class="card-img-top" alt="bouquet2">
+        <div class="card-body">
+          <h5 class="card-title">Wedding Bouquet Elegant</h5>
+          <p class="card-text">The most elegant and dramatic bouquet on our page and has the most buyers.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">450 LEI</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./assets/bouquet3.jpg" class="card-img-top" alt="bouquet3">
+        <div class="card-body">
+          <h5 class="card-title">Wedding Bouquet Simple</h5>
+          <p class="card-text">The simplicity is the best way to impress anyone without wanting to do it. </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">250 LEI</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="secondbody">
+  
+  <hr>
+   <div class="title text-center">
+      <h2 class="big text-uppercase">who we are</h2>
+      <h5 class="small text-uppercase text-italic">we make stuff. Beautiful, practical, meaningful stuff. We make what we love. <br>We love what we do</h5>
+      <div class="line-title">
+        <img src="./assets/line-pattern-1.png" alt="line">
+      </div>
+  </div>
+  <div class="container">
+      <img src="./assets/woman-holding.webp" alt="woman-holding" style="width:100%;">
+      <div class="content">
+        <h1>You want to see the creatives behind Flowers for all?</h1>
+        <p>Check our Gallery</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <hr>
+  <div class="testimonial">
+    <div class="title text-center">
+        <h2 class="big text-uppercase">Testimonial</h2>
+        <h5 class="small text-uppercase text-italic">See what customer are saying about us</h5>
+  <div id="carousel-testimonials" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <p>Sed quis ornare neque, vel suscipit arcu. Curabitur iaculis sit amet libero non vestibulum. Suspendisse augue magna, faucibus id mi vitae, lobortis imperdiet velit. In hac habitasse platea dictumst. Proin dapibus nisl dapibus, tincidunt tellus sit amet, facilisis sem.</p>
+        <h2>John Doe</h2>
+      </div>
+      <div class="carousel-item">
+        <p>Sed quis ornare neque, vel suscipit arcu. Curabitur iaculis sit amet libero</p>
+        <h2> Karina Smith</h2>
+      </div>
+      <div class="carousel-item">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h2>Jane Coleen</h2>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    </div>
+  </div>
+  <hr>
+  <div class="ending d-flex justify-content-center">
+  <div class="col-md-12 col-lg-6">
+      <div class="newsletter-content text-center">
+          <h3 class="text-uppercase text-italic font-fanwoodtext">receive flowers for all updates</h3>
+          <p class="small text-uppercase text-italic color-pink fw-bold">Mauris erat est, luctus id risus vitae, tristique accumsan nibh. Vivamus nisi nunc, faucibus eu posuere nec, pulvinar vel erat</p>
+          <div class="social-content">
+            <a href="#" class="social-icon text-uppercase">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" class="social-icon text-uppercase">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+          <div class="newsletter-form">
+              <form>
+                  <input id="youremail" class="text-uppercase text-italic" type="text" name="youremail" value="Your email">
+                  <label for="youremail"><i class="fa fa-envelope-o"></i></label>
+              </form>
+          </div>
+      </div>
+  </div>
+  
+      
+  
+</div>
+  </body>
+</html>

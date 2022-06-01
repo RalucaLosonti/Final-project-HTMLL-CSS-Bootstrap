@@ -1,0 +1,50 @@
+.services-first {
+  max-width: 200px;
+  max-height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 200px;
+}
+.carousel-inner {
+  max-width: 1600px;
+  max-height: 500px;
+}
+.carousel-item {
+  max-width: 1600px;
+  max-height: 500px;
+}
+.secondbody {
+  background-image: url("./background.jpg");
+}
+.container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-right: 0.01px;
+  padding-left: 0.5px;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.testimonial {
+  background-image: url("./Faded-Quotes.webp");
+}
+.text-italic {
+  font-style: italic;
+}
+.ending {
+  background-image: url("./background.jpg");
+  
+}
+.color-pink{
+  color:#6f044d
+  
+}
